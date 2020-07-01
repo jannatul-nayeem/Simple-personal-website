@@ -1,0 +1,133 @@
+body{
+    width: 100%;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size:30px;
+    margin: 5px 0px;
+}
+.pink-highlight{
+    font-size: 35px;
+    color:#EC4E8D ;
+    font-weight: 900;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+    padding:15px 0px;
+    font-size: 15px;
+}
+section{
+    height:400px;
+    width: 100%;
+    padding-bottom: 150px;
+}
+/* top area style */
+.top-section{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.half-width{
+    width: 35%;
+    margin-left: 5%;
+    float: left;
+    
+}
+.content{
+    padding: 100px 0px 80px 80px;
+}
+.half-width img{
+    width: 100%;
+}
+/* button style */
+.button-style{
+    background-color:#E52A6F;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight:500;
+    border: none;
+    
+}
+.button-style:hover{
+    background-color: #ff0661;
+    color: white;
+
+}
+/* biography area style */
+.biography-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* latest area style */
+.latest-work-section{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1.heading-style{
+    text-align: center;
+}
+.work-img{
+    width: 100%;
+}
+.work-img img{
+    width:25%;
+    height: 100%;
+    margin:4%;
+    float: left;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+/* client review area */
+.client-review-section{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.client-content{
+    text-align: center;
+    color: black;
+}
+.ceo{
+    color: dimgray;
+}
+.para-text{
+    margin-bottom: 50px;
+}
+.contact-area{
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+/* contact area style */
+.input-style{
+  width: 70%;
+  margin:20px 0px;
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1px solid #E52A6F;
+  outline: none;
+  background-color:#f2f2f2 ;  
+}
+.submit{
+    height:35px;
+    margin-left: 200px;
+    cursor: pointer;
+    outline: none;
+}
+/* footer area style */
+footer p{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 15px;
+}
